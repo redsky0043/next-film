@@ -1,0 +1,11 @@
+.MovieItem {
+  cursor: pointer;
+
+  &:hover {
+    position: absolute;
+    inset: 50% auto auto 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    width: 250px;
+  }
+}
